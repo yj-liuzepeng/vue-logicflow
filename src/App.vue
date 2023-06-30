@@ -21,7 +21,7 @@ const initLf = () => {
   // 单击事件，修改节点文本
   lf.value.on("node:click", ({ data }) => {
     const nodeModel = lf.value.getNodeModelById(data.id);
-    nodeModel.updateText('id为【' + data.id + '】的我被修改过了');
+    nodeModel.updateText('id为【' + data.id + '】的被修改过了');
     const modifiedAllData = lf.value.getGraphData();
     const modifiedNodeData = nodeModel.getData();
     // console
