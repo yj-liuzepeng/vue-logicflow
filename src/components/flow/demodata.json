@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": 262,
+      "type": "CustomNode",
+      "x": 340,
+      "y": 160,
+      "properties": {
+        "code": "job_batch_todb",
+        "taskid": 119
+      },
+      "text": {
+        "x": 340,
+        "y": 160,
+        "value": "RLRKFw123"
+      }
+    },
+    {
+      "id": 263,
+      "type": "CustomNode",
+      "x": 340,
+      "y": 280,
+      "properties": {
+        "code": "job_batch_file",
+        "taskid": 54
+      },
+      "text": {
+        "x": 340,
+        "y": 280,
+        "value": "WJFW12"
+      }
+    },
+    {
+      "id": 265,
+      "type": "CustomNode",
+      "x": 680,
+      "y": 160,
+      "properties": {
+        "code": "job_batch_todb",
+        "taskid": 121
+      },
+      "text": {
+        "x": 680,
+        "y": 160,
+        "value": "RIFWW1"
+      }
+    },
+    {
+      "id": 266,
+      "type": "CustomNode",
+      "x": 680,
+      "y": 280,
+      "properties": {
+        "code": "job_batch_file",
+        "taskid": 55
+      },
+      "text": {
+        "x": 680,
+        "y": 280,
+        "value": "HH1"
+      }
+    },
+    {
+      "id": 267,
+      "type": "CustomNode",
+      "x": 340,
+      "y": 440,
+      "properties": {
+        "code": "job_batch_todb",
+        "taskid": 122
+      },
+      "text": {
+        "x": 340,
+        "y": 440,
+        "value": "cccc1"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "Flow_0rm0pss",
+      "type": "bpmn:sequenceFlow",
+      "sourceNodeId": 262,
+      "targetNodeId": 263,
+      "startPoint": {
+        "x": 340,
+        "y": 177.5
+      },
+      "endPoint": {
+        "x": 340,
+        "y": 262.5
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 340,
+          "y": 177.5
+        },
+        {
+          "x": 340,
+          "y": 262.5
+        }
+      ]
+    }
+  ]
+}
